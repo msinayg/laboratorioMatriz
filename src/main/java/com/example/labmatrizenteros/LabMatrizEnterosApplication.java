@@ -22,7 +22,7 @@ public class LabMatrizEnterosApplication {
         for (int i = 0; i < soup.length; i++) {
             StringBuilder fila = new StringBuilder();
             fila.append("Fila " + i + ": ");
-            for (int j = 0; j < soup.length; j++) {
+            for (int j = 0; j < soup[i].length; j++) {
                 fila.append(soup[i][j]);
                 fila.append(",");
             }
